@@ -1,0 +1,434 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&family=Montserrat:wght@700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Lato";
+  font-size: 20px;
+  font-weight: 400;
+}
+
+/* Header */
+
+.container1{
+  width: 100%;
+  display: flex;
+}
+
+.header{
+  width:80%;
+  height: 85px;  
+  background-color: #ffffff;
+  display: flex;
+  align-items: center;
+}
+
+.header-box {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-left: 272px;
+}
+
+.header-ul {
+  display: flex;
+  align-items: center;
+  column-gap:50px ;
+  list-style-type: none;
+}
+
+.text1 {
+  color: #01996d;
+  font-family: "Lato", sans-serif;
+  font-size: 30px;
+  font-weight: 900;
+  margin-left: -38px;
+}
+
+.text {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  color: #292929;
+}
+
+.text10{
+  margin-right: 35px;
+}
+
+.sign-in {
+  width: 23%;
+  display: flex;
+  align-items: center;
+  justify-content: right;
+  margin-right: -120px;
+}
+
+.button {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 13px 50px;
+  background: #01996d;
+  border: 1px solid #01996d;
+  border-radius: 4px;
+  color: white;
+}
+
+/* Section1 */
+
+.section1 {
+  width: 100%;
+  min-height: 895px;
+  height: 100%;
+  background: url(./images/radu-florin-CwTBt6jyagQ-unsplash\ 1.png);
+  object-fit: cover;
+  display: flex;
+  justify-content: center;
+  background-size: cover;
+  background-position: center;
+}
+
+.sec1-content {
+  width: 83%;
+  padding-top: 200px;
+}
+
+.sec1-content-text {
+  width: 22%;
+  display: flex;
+  flex-direction: column;
+  row-gap: 30px;
+}
+
+.sec1-header {
+  font-weight: 700;
+  font-size: 65px;
+  color: #01996d;
+}
+
+.button2{
+  background-color:  #01996D;
+  padding: 20px 50px;
+  color: white;
+  border-radius: 4px;
+  border: 1px solid #01996d;
+}
+
+/* Section2 */
+
+.container3{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.section2{
+  width: 80%;
+  margin-top: 120px;
+}
+
+.sec2-text1{
+  font-size: 24px;
+  width: 38%;
+  margin-left: -38px;
+}
+
+.sec2-text{
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.text-left{
+  width: 30%;
+  font-family: "Georgia";
+  font-weight: 700;
+  font-size: 50px;
+  color: #01996D;
+  margin-left: -38px;
+}
+
+.text-right{
+  width: 35%;
+  font-size: 20px;
+  margin-left: 136px;
+  margin-right: 254px;
+}
+
+.space-between{
+  width: 100%;
+  margin-top: 100px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.space-between2{
+  width: 18%;
+}
+
+.between{
+  margin-left: -38px;
+}
+
+.position1 {
+  position: relative;
+  top: -30px;
+  left: 80px;
+  font-family: "Georgia";
+  font-weight: 700;
+  font-size: 30px;
+}
+
+.margin-top-200 {
+  margin-top: 200px;
+  margin-bottom: 50px;
+}
+
+.margin-top100{
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+/* Section3 */
+
+.container4{
+  width: 100%;
+  height: 922px;
+  background-color:#245852;
+}
+
+.sec3{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.left{
+  width: 40%;
+  row-gap: 75px;
+  display: flex;
+  flex-direction: column;
+  margin-top: 310px;
+  margin-left: 207px;
+}
+
+.topic{
+  font-family: Georgia;
+  font-weight:700;
+  font-size: 50px;
+  color: #ffffff;
+  width: 56%;
+}
+
+.right{
+  margin-top: 229px;
+  margin-right: 206.16px;
+}
+
+.text-sec3{
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 25px;
+  color: #ffffff;
+}
+
+.button-sec3{
+  background-color: #01996D;
+  border-radius: 4px;
+  border:1px solid #01996D ;
+  padding: 20px 50px 20px 50px;
+  align-items: center;
+  display: flex;
+  color: #ffffff;
+  font-family: 'Lato';
+  font-weight: 400;
+  font-size: 20px;
+  width: 245px;
+}
+
+/* Section4*/
+
+.topic1{
+  font-family: 'Lato';
+  font-weight: 600;
+  font-size: 25px;
+}
+
+.topic2{
+  font-family: 'Georgia';
+  font-weight: 700;
+  font-size: 50px;
+  color: #01996D;
+  width: 60%
+}
+
+.text-sec4{
+  font-family: 'Lato';
+  font-weight: 400;
+  font-size: 20px;
+  width: 45%;
+}
+
+.button-sec4{
+  background-color: #01996D;
+  border: 1px solid #01996D;
+  border-radius: 4px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px 50px;
+  color: #ffffff;
+  width: 232px;
+}
+
+.container5{
+  width: 100%;
+  display: flex;
+  height: 936px;
+  position: relative;
+}
+
+.sec4{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  left: 530px;
+  top: 173px;
+  position: absolute;
+  right: 256px;
+  bottom: 173px;
+}
+
+.sec4-right{
+  row-gap: 30px;
+  display: flex;
+  flex-direction: column;
+  margin-top: 1px;
+  position: relative;
+  margin-left:100px;
+}
+
+.img1{
+  position:absolute;
+  margin-left:113px;
+  margin-top: 74px;
+  z-index: -1;
+}
+
+.img2{
+  width: 726px;
+}
+
+.img-sec4{
+  border-radius: 10px;
+}
+
+.mini-img1{
+  margin-top: -214px;
+  left: -61px;
+  position: absolute;
+}
+
+.img1-2{
+  position: relative;
+}
+
+.mini-img1-0{
+  position:relative;
+}
+
+.mini-img2{
+  position: absolute;
+  z-index: 1;
+  bottom: 106px;
+  left: 58px;
+  border-radius: 50px;
+}
+
+.sec4-left-text{
+  position: relative;
+  bottom: 190px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 6px;
+}
+
+.block{
+  width: 110.49px;
+  height: 1px;
+  background-color: #000000;
+  margin-left: 35px;
+  position: absolute;
+  margin-top: 24px;
+}
+
+.sec4-text1{
+  margin-bottom: 65px;
+  font-family: 'Lato';
+  font-weight: 600;
+  font-size: 14.49px;
+  font-style: normal;
+  margin-left: 40px;
+}
+
+.sec4-text2{
+  margin-left: 68px;
+  font-family: 'Lato';
+  font-weight: 400;
+  font-size: 11.9351px;
+}
+
+.sec4-text3{
+  font-family: 'Georgia';
+  font-weight: 700;
+  font-size: 15.9292px;
+}
+
+.sec4-text4{
+  font-family: 'Lato';
+  font-weight: 400;
+  font-size: 10.6195px;
+}
+
+.sec4-text5{
+  font-family: 'Lato';
+  font-weight: 400;
+  font-size: 10.6195px;
+}
+
+/* Footer */
+
+footer{
+  width: 100%;
+  height: 654px;
+  background-color: #245852;
+}
+
+.footer-text{
+  display: flex;
+  flex-direction: column;
+  row-gap: 60px;
+  justify-content: left;
+  margin-left: 275px;
+  padding-top: 50px;
+  margin-top: 168px;
+}
+
+.footer-text1{
+  font-family: 'Avenir';
+  font-weight: 900;
+  font-size: 40px;
+  color: #ffffff;
+}
+
+.footer-text2{
+  font-family: 'Lato';
+  font-weight: 600;
+  font-size: 25px;
+  color: #ffffff;
+}
